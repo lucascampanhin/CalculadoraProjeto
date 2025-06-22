@@ -33,7 +33,10 @@ public class CalculadoraTest {
     }
 
     @Test
+
     void testDividirPorZero() {
         assertThrows(ArithmeticException.class, () -> calc.dividir(5, 0));
     }
+    //System.out.println("Rodando o teste de soma...");
+
 }
